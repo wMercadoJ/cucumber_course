@@ -3,9 +3,9 @@ Practice for ruby and cucumber for QE Training
 
 Please Follow the instructions to push your changes :
 
-1. You should fork this repository
-2. Only push your changes into your folder Name
-3. Create the pull request from your local repository to this repository
+1. You should fork this repository.
+2. Only push your changes into your folder Name.
+3. Create the pull request from your local repository to this repository.
 
 Git Commands 
 
