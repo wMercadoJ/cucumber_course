@@ -1,0 +1,16 @@
+print "hola"
+print "hola"
+print "hola"
+print "hola"
+print "hola"
+print "hola"
+print "hola"
+
+
+puts "todos"
+puts "todos"
+puts "todos"
+puts "todos"
+puts "todos"
+puts "todos"
+puts "todos"
