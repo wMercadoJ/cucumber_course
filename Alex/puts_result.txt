@@ -1,0 +1,6 @@
+C:\Ruby\Labs\lab1>ruby print_practice_rb.rb
+Apple1Apple2
+Apple3Orange
+Orange
+Orange
+Orange

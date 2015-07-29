@@ -1,0 +1,7 @@
+print "Apple1"
+print "Apple2\n"
+print "Apple3"
+puts "Orange"
+puts "Orange"
+puts "Orange"
+puts "Orange"
