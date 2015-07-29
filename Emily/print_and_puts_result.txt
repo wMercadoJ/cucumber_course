@@ -1,0 +1,8 @@
+C:\cucumber_course_23\rep\cucumber_course\Emily>ruby print_and_puts.rb
+Emily!Emily!Emily!Emily!Emily!Emily!Emily!Claure!
+Claure!
+Claure!
+Claure!
+Claure!
+Claure!
+Claure!
