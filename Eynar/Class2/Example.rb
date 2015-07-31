@@ -1,0 +1,6 @@
+#print "test aaa"
+print "test aaa"
+print "test aaa"
+puts "test1 aabbb"
+puts "test1 aabbb"
+puts "test1 aabbb"
