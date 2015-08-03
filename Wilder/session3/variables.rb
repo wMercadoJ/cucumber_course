@@ -15,16 +15,16 @@ puts "Velocity = #{(7+2)/(2+1)} km/h"
 #Basic Geometry
 #examples using variables inside puts instruction
 puts "Find the area and perimeter of a rectangle of 7x3 (length x width)"
-l = 7
-w = 3
+length = 7
+width = 3
 puts "Perimeter = #{(2*l)+(2*w)}"
-puts "Area = #{l} x #{w} = #{l*w}"
+puts "Area = #{length} x #{width} = #{length * width}"
 
 #Newton's 2nd law
 puts "What force will produce an acceleration of 7 m/s2, in a body of mass 21 kg?"
-a = 7
-m = 21
-puts "F = #{a * m} N"
+acceleration = 7
+mass = 21
+puts "F = #{acceleration * mass} N"
 
 #practice2: generate error
 =begin
@@ -34,12 +34,12 @@ undefined local variable or method `notDefined' for main:Object (NameError)
 =end
 
 #practice4
-SECONDS = 214587
-minutes = SECONDS / 60
-hours = SECONDS / (60 * 60)
-days = SECONDS / (24 * 60 * 60)
+seconds = 214587
+minutes = seconds / 60
+hours = seconds / (60 * 60)
+days = seconds / (24 * 60 * 60)
 
-puts "Convert #{SECONDS} seconds to minutes, hours and days"
+puts "Convert #{seconds} seconds to minutes, hours and days"
 puts "Minutes: #{minutes}"
 puts "Hours: #{hours}"
 puts "Days: #{days}"
