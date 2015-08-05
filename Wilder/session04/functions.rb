@@ -1,12 +1,12 @@
 # encoding: utf-8
 def person_age(name, age)
-	age_hours = age * (365*24)
+	age_hours = age.to_i * (365*24)
 	puts "hi " + name.upcase
 	puts "your age #{age} in hours is #{age_hours}"
 end
 
 person_age('jose', 25)
-person_age 'ana', 20
+person_age 'ana', '20'
 
 def to_fahrenheit(celcius)
 	return (((9*celcius)/5)+32)
