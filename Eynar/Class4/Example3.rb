@@ -7,3 +7,4 @@ puts "Give me a number"
 number = gets.chomp.to_f
 flotant=number *100
 puts "The floating number is #{flotant}"
+
