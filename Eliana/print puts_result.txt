@@ -1,0 +1,5 @@
+C:\Cucumber_Ruby\cucumber_course\Eliana>ruby 1_print_put_practice.rb
+Print line 1Print line 2Print line 3Puts line 4
+Puts line 5
+Puts line 6
+Puts line 7
