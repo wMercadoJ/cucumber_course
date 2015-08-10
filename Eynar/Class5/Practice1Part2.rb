@@ -2,7 +2,7 @@
 Practice 1 -  import modules or library
 =end
 
-#load 'Practice1.rb'
+load 'Practice1.rb'
 require '../Class5/Practice1'
 
 class PractModule 
@@ -10,10 +10,11 @@ class PractModule
     include SayBye
 
 	def initialize()
+		Greets.good_afternoon
 	end
 		
 end
 
 Practice=PractModule.new
-Practice.good_afternoon
+#Practice.good_afternoon
 Practice.good_bye
