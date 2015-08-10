@@ -1,11 +1,18 @@
 =begin
+Author: Paola Munoz
+Subject: Ruby Basics
+Description: - Math operators (Plus, Minus, Multiplicator, Division)
+			 - Variables
+			 - Print Variables in a sentence	
+
 practica day 3
-Math Operators
+
 =end
 
 # 1. take your previous script and change calculations for variables.
  
-=begin
+puts "=====================Nro. # 1 ============================"
+
  total_bananas = 25 + 30 / 6 
  total_apples = 100 - 25 + 3 % 4
  is_true = 3  + 2 < 5 - 7
@@ -17,20 +24,26 @@ puts "Banana: #{total_bananas}"
 puts "apples: #{total_apples}"
 puts "now i will count the potatos"
 puts "Is it true that 3 + 2 < 5 - 7?"
-puts "this is a non existing variable: #{non_variable}"
 puts is_true
 puts "What is 3 + 2? It is #{what_is_3_plus_2}"
 puts "what is 5 - 7? It is #{what_is_5_minus_7}"
 
-=end
+
+puts "=====================Nro. # 2 ============================"
+
 =begin
+
 2. Add some line in the middle of your script that is refering to a 
 variable that doesn't exist.
 Run the file and please explain the error displayed
 see line 19
 
 the line stopped in line 19, sendig a error message for undefined variable.
+
 =end
+
+#puts "this is a non existing variable: #{non_variable}"
+
 
 =begin
 3. Create a new script
@@ -40,7 +53,7 @@ the line stopped in line 19, sendig a error message for undefined variable.
 	e.g. instead of #{2 + 3} use #{arg + arg2}	
 =end
 
-=begin
+
 puts "=====================Nro. # 3 ============================"
 
 variable_string = "This is a string variable"
@@ -53,7 +66,7 @@ puts "concat strings: #{variable_string + variable_string}"
 puts "Now the turn is for the integer variable: #{varibale_integer} <-- Awesome!"
 
 puts "operation with variables: #{varibale_integer + variable_integer2}"
-=end
+
 
 puts "==========================Nro. # 4 ================================"
 
