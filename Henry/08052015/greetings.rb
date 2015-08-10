@@ -1,27 +1,5 @@
-module Greets
-	def Greets.say_hello
-		puts "Hello"
-	end
-
-	def Greets.say_hi
-		puts "Hi Friend!!!"
-	end
-
-	def say_hola
-		puts "Holas! :)"
-	end
-end
-
-module Farewell
-	def Farewell.say_bye
-		puts "Bye"
-	end
-
-	def Farewell.say_see_you
-		puts "See you later!!!"
-	end
-end
-
+require './module_greets'
+require_relative 'module_Farewell'
 class Greetings
 	include Greets
 	include Farewell
