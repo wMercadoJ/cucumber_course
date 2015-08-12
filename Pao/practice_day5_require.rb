@@ -9,7 +9,9 @@ Description: - how to use Modules
 			practica day 5
 =end
 
-require practice_day5_modulo_part1
+$LOAD_PATH << '.'
+
+require "practice_day5_modulo_part1"
 
 class Greeting_and_GoodBye
 	include Greetings
