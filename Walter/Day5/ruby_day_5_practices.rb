@@ -1,4 +1,5 @@
 # Day5: Practice 1 
+
 # module Greets
 # 	FIRST_DAY = "Sunday"
 # 	def first_greet(name)		
@@ -25,8 +26,7 @@
 # 	end
 # end
 
-# require <ruby_day_5_module_bye>
-# require <ruby_day_5_module_greet>
+
 require './ruby_day_5_module_greet'
 require_relative 'ruby_day_5_module_bye'
 
