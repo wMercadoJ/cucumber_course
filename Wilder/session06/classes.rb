@@ -87,3 +87,39 @@ class Rectangle < Polygon
 end
 puts Rectangle.sides
 puts Polygon.sides
+
+#Practice
+class Father
+    @@money = 500
+    def print_money
+        puts "father has " + @@money.to_s
+    end
+end
+class Child1 < Father
+	def take_money
+        puts "child1 takes 50"
+        @@money = @@money - 50        
+    end
+end
+class Child2 < Father
+	def take_money
+        puts "child2 takes 150"
+        @@money = @@money - 100
+    end
+end
+class Child3 < Father
+	def take_money
+        puts "child3 takes 100"
+        @@money = @@money - 150
+    end
+end
+
+father = Father.new
+child1 = Child1.new
+child2 = Child2.new
+child3 = Child3.new
+father.print_money
+child1.take_money
+child2.take_money
+child3.take_money
+father.print_money
