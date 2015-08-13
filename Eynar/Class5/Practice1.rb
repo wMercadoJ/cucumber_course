@@ -5,15 +5,15 @@ Practice 1 -  modules
 # library example
 module Greets
 
-	def hi_friend
+	def Greets.hi_friend
 		puts"hi friend"
 	end
 
-	def good_night
+	def Greets.good_night
 		puts"good night"
 	end
 
-	def good_afternoon
+	def Greets.good_afternoon
 		puts"good afternoon"
 	end
 end
