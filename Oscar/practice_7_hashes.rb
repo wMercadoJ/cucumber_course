@@ -18,6 +18,9 @@
 # p mySal 
 
 class RubyHashes
+
+	attr_accessor :hash
+
 	def initialize()
 	end
 
@@ -38,28 +41,28 @@ class RubyHashes
 		return hash
 	end
 
-	def print_hash_keys(hash)
+	def print_hash_keys()
 		puts "Printing hash keys"
 		puts hash.keys
 	end
 
-	def print_hash_values(hash)
+	def print_hash_values()
 		puts "Printing hash values"
 		puts hash.values
 	end
 
-	def print_hash(hash)
+	def print_hash()
 		puts "Printing all hash"
 		puts hash
 	end
 
-	def check_key(hash)
+	def check_key()
 		puts "Please insert the key to be verified"
 		key = gets.chomp
 		p hash.has_key?(key)
 	end
 
-	def check_value(hash)
+	def check_value()
 		puts "Please insert the value to be verified"
 		key = gets.chomp
 		p hash.has_value?(key)
@@ -67,11 +70,10 @@ class RubyHashes
 
 end
 
-r = RubyHashes.new
-h = r.create_hash()
-r.print_hash_keys(h)
-r.print_hash_values(h)
-r.print_hash(h)
-r.check_key(h)
-r.check_value(h)
-
+rh = RubyHashes.new
+rh.hash = rh.create_hash()
+rh.print_hash_keys()
+rh.print_hash_values()
+rh.print_hash()
+rh.check_key()
+rh.check_value()
