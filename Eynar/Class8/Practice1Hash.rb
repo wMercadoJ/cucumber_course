@@ -1,50 +1,52 @@
 class Practice1Hash
 	attr_accessor:size
-	attr_reader:elements
 
+	
 	def initialize()
-		elements=Hash.new
+		@elements={}
 	end
 
+	def set_element_hash(element_value)    
+		@elements=element_value
+	end
+	
 	def print_keys()
 		puts "Print Keys"
-		p elements.keys
+		p @elements.keys
 	end
 
 	def print_hash()
-		elements=external_hash
 		puts "Print Hash"
-		p elements
+		p @elements
 	end
 
 	def print_value()
-		elements=external_hash
 		puts "Print Values"
-		puts elements.values
+		puts @elements.values
 	end
 
-	def read()
-		 puts "Read Elements"
+	def read
+		 puts "Read Elements : #{size}"
 		 size.times do |key_value,value|
 	    	 p "Enter Key"
  			 key_value=gets.chomp
  			 p "Enter Value"
  			 value=gets.chomp
- 			 #@elements[key_value]=value
- 			 elements.store key_value,value
+ 			 #elements[key_value]=value
+ 			 @elements.store key_value,value
  			end
 	end
 
 	def exist_key_on_hash()
 		puts "type Key to see if it exist"
 		value=gets.chomp
-		p elements.has_key?(value)
+		p @elements.has_key?(value)
 	end
 	
 	def exist_value_on_hash()
 		puts "type Value to see if it exist"
 		value=gets.chomp
-		p elements.has_value?(value)
+		p @elements.has_value?(value)
 	end
 	
 end
