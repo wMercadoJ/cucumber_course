@@ -49,14 +49,14 @@ class HashPractice
 
 end
 
-hash_test = HashPractice.new
-hash_test.create_hash
-hash_array = hash_test.hash_array
-hash_test.print_hash_key hash_array
-hash_test.print_hash_values hash_array
-hash_test.print_hash hash_array
-hash_test.key_exists_in_hash hash_array
-hash_test.value_exists_in_hash hash_array
+# hash_test = HashPractice.new
+# hash_test.create_hash
+# hash_array = hash_test.hash_array
+# hash_test.print_hash_key hash_array
+# hash_test.print_hash_values hash_array
+# hash_test.print_hash hash_array
+# hash_test.key_exists_in_hash hash_array
+# hash_test.value_exists_in_hash hash_array
 
 
 class PersonControlStatement
@@ -75,12 +75,11 @@ class PersonControlStatement
 	end
 
 	def type_of_person_short_if
-		puts results = if @age >= 0 && @age <= 5 then "#{@name} with #{age} years is a Baby" 
-		elsif @age >= 6 && @age <= 12 then "#{@name} with #{age} years is a Child" 
-		elsif @age >= 13 && @age <= 21 then "#{@name} with #{age} years is a Young People" 
-		elsif @age >= 22 && @age < 35 then "#{@name} with #{age} years is a Adult" 
-		else "Type of Person cannot be calculated because #{@result}" 
-		end
+		puts results =  @age >= 0 && @age <= 5 ? "#{@name} with #{age} years is a Baby" :
+		 @age >= 6 && @age <= 12 ? "#{@name} with #{age} years is a Child" :
+		 @age >= 13 && @age <= 21 ? "#{@name} with #{age} years is a Young People" :
+		 @age >= 22 && @age < 35 ? "#{@name} with #{age} years is a Adult" : "Type of Person cannot be calculated because #{@result}" 
+		
 	end
 
 
