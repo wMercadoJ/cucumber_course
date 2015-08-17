@@ -23,8 +23,7 @@ class Register
 								p "name : #{@name[key].upcase} , position : #{index}"
 							  end
 
-		new_array=@name.map {|key,value| value.upcase}
-		return new_array
+		return new_array=@name.map {|key,value| value.upcase}
 	end
 	
 	def good_bye_person(array_with_name)
