@@ -2,25 +2,30 @@ class People
 
   def initialize(quantity)
     @quantity = quantity
+    @hash = Hash.new
   end
 
   def get_information()
-    @hash.each do |key, value|
+    @quantity.times do |key, value|
       puts "Please register a name"
       name = gets.chomp
       puts "Please register a ID"
       id = gets.chomp.to_i
-      @Hash.key = name
-      @Hash.value = id
+      @hash.store(name, id)
     end
+
+    return @hash
   end
 
-  def do_tasks_1()
+  def do_tasks_1(hash)
+
+    puts hash.inspect
+
     arr = Array.new
     # for each one of the Names, change them to upper case
-    @Hash.each do |(key, value), index|
+    hash.each_with_index do |(key, value), index|
       up_key = key.upcase
-      puts index
+      puts "#{index} - #{up_key}"
       arr.push(up_key)
     end
 
@@ -37,4 +42,6 @@ class People
 end
 
 people = People.new(2)
-people.get_information()
+hash = people.get_information()
+arr = people.do_tasks_1(hash)
+people.say_good_bye(arr)
