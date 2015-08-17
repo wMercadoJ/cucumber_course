@@ -18,7 +18,7 @@
 # 	end
 # end
 
-require_relative 'practice_4_require'
+require_relative 'session_5_require_file'
 
 class Person
 
