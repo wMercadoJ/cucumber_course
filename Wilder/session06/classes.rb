@@ -103,13 +103,13 @@ class Child1 < Father
 end
 class Child2 < Father
 	def take_money
-        puts "child2 takes 150"
+        puts "child2 takes 100"
         @@money = @@money - 100
     end
 end
 class Child3 < Father
 	def take_money
-        puts "child3 takes 100"
+        puts "child3 takes 150"
         @@money = @@money - 150
     end
 end
