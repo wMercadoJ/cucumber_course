@@ -1,13 +1,15 @@
 class Person
-	attr_reader :name_person
-	attr_writer :greet_person
+	attr_writer :name_person
+	attr_reader :greet_message
 	attr_accessor :special_message
 
-	def initialize(greet_person)
-		greet_person = greet_person
+	def greet_person(greet_message)
+		@greet_message = greet_message + @name_person
 	end
 end
 
-person = Person.new("Hi")
+person = Person.new
+puts "Insert a name: "
+person.name_person = gets.chomp.to_s
 
-puts greet_person
+puts person.greet_person("Hi ") + person.special_message = " have a nice day :)"
