@@ -1,0 +1,32 @@
+C:\Ruby22>gem install cucumber
+Fetching: multi_test-0.1.2.gem (100%)
+Successfully installed multi_test-0.1.2
+Fetching: multi_json-1.11.2.gem (100%)
+Successfully installed multi_json-1.11.2
+Fetching: gherkin-2.12.2-x86-mingw32.gem (100%)
+Successfully installed gherkin-2.12.2-x86-mingw32
+Fetching: diff-lcs-1.2.5.gem (100%)
+Successfully installed diff-lcs-1.2.5
+Fetching: builder-3.2.2.gem (100%)
+Successfully installed builder-3.2.2
+Fetching: cucumber-core-1.2.0.gem (100%)
+Successfully installed cucumber-core-1.2.0
+Fetching: cucumber-2.0.2.gem (100%)
+Successfully installed cucumber-2.0.2
+Parsing documentation for multi_test-0.1.2
+Installing ri documentation for multi_test-0.1.2
+Parsing documentation for multi_json-1.11.2
+Installing ri documentation for multi_json-1.11.2
+Parsing documentation for gherkin-2.12.2-x86-mingw32
+Installing ri documentation for gherkin-2.12.2-x86-mingw32
+Parsing documentation for diff-lcs-1.2.5
+Installing ri documentation for diff-lcs-1.2.5
+Parsing documentation for builder-3.2.2
+Installing ri documentation for builder-3.2.2
+Parsing documentation for cucumber-core-1.2.0
+Installing ri documentation for cucumber-core-1.2.0
+Parsing documentation for cucumber-2.0.2
+Installing ri documentation for cucumber-2.0.2
+Done installing documentation for multi_test, multi_json, gherkin, diff-lcs,
+lder, cucumber-core, cucumber after 22 seconds
+7 gems installed
