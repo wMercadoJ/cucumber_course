@@ -34,24 +34,24 @@ print  [1,2,3] - [3,4,5] # 1,2
 
 puts "\n"
 
-# pop returns the las element and removes it form the array
+# pop returns the last element and removes it form the array
 alpha = %w[a b c d e f g h]
 puts "pop element = " + alpha.pop
 p alpha 
 
-# push
+# push add elements to array end 
 beta = %w[a b c d e f g h]
 beta.push("x","y")
 puts "push element = " + beta.inspect
 
-# shift inverso to pop
+# shift returns the first element and removes it form the array
 shiftArray = %w[a b c d e f g h]
 puts "shift element = " + shiftArray.shift
 p shiftArray #
 
-#unshift 
+#unshift add elements to array beginning
 unshiftArray = ["a", "b", "c"]
-unshiftArray.unshift("x","y")
+unshiftArray.unshift("x","y") # ["x","y","a","b","c"]
 p unshiftArray 
 
 alpha = Array.new  
@@ -63,7 +63,7 @@ class Pactice
 
 def create_array
 alpha = Array.new
-puts "how many elemnts will have the array?"
+puts "how many elements will have the array?"
 array_lenght = gets.chomp.to_i
 array_lenght.times do |position|
 	puts "Please insert element[#{position}]"
