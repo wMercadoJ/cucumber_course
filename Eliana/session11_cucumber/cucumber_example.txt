@@ -1,0 +1,11 @@
+#Cucumber structure
+C:\cucumber_course\Eliana\session11_cucumber\Example>Cucumb
+er --init
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+  create   features
+  create   features/step_definitions
+  create   features/support
+  create   features/support/env.rb
+
+C:\Users\Eliana\Desktop\cucumber_course\Eliana\session11_cucumber\Example>

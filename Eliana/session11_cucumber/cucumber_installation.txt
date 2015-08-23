@@ -1,3 +1,4 @@
+# Ruby gems installation
 C:\Ruby22>gem install cucumber
 Fetching: multi_test-0.1.2.gem (100%)
 Successfully installed multi_test-0.1.2
@@ -30,3 +31,167 @@ Installing ri documentation for cucumber-2.0.2
 Done installing documentation for multi_test, multi_json, gherkin, diff-lcs,
 lder, cucumber-core, cucumber after 22 seconds
 7 gems installed
+
+C:\Ruby22>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+builder (3.2.2)
+cucumber (2.0.2)
+cucumber-core (1.2.0)
+diff-lcs (1.2.5)
+gherkin (2.12.2 x86-mingw32)
+io-console (0.4.3)
+json (1.8.1)
+minitest (5.4.3)
+multi_json (1.11.2)
+multi_test (0.1.2)
+power_assert (0.2.2)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+test-unit (3.0.8)
+
+
+C:\Ruby22>cucumber --version
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+2.0.2
+
+C:\Ruby22>gem search -l cucumber
+
+*** LOCAL GEMS ***
+
+cucumber (2.0.2)
+cucumber-core (1.2.0)
+
+C:\Ruby22>gem uninstall cucumber
+Remove executables:
+        cucumber
+
+in addition to the gem? [Yn]  Y
+Removing cucumber
+Successfully uninstalled cucumber-2.0.2
+
+C:\Ruby22>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+builder (3.2.2)
+cucumber-core (1.2.0)
+diff-lcs (1.2.5)
+gherkin (2.12.2 x86-mingw32)
+io-console (0.4.3)
+json (1.8.1)
+minitest (5.4.3)
+multi_json (1.11.2)
+multi_test (0.1.2)
+power_assert (0.2.2)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+test-unit (3.0.8)
+
+# Recursive uninstall
+
+C:\cucumber_course\Eliana\session11_cucumber>uninstall_not_default_gem.rb
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "bigdecimal" cannot be uninstalled because it is a default gem
+
+Successfully uninstalled builder-3.2.2
+Successfully uninstalled cucumber-core-1.2.0
+Removing htmldiff
+Removing ldiff
+Successfully uninstalled diff-lcs-1.2.5
+Successfully uninstalled gherkin-2.12.2-x86-mingw32
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "io-console" cannot be uninstalled because it is a default gem
+
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "json" cannot be uninstalled because it is a default gem
+
+Successfully uninstalled minitest-5.4.3
+Successfully uninstalled multi_json-1.11.2
+Successfully uninstalled multi_test-0.1.2
+Successfully uninstalled power_assert-0.2.2
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "psych" cannot be uninstalled because it is a default gem
+
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "rake" cannot be uninstalled because it is a default gem
+
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "rdoc" cannot be uninstalled because it is a default gem
+
+Successfully uninstalled test-unit-3.0.8
+INFO:  Uninstalled all gems in
+
+C:\>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+io-console (0.4.3)
+json (1.8.1)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+
+# Bundler installation
+C:\Ruby22>gem install bundler
+Fetching: bundler-1.10.6.gem (100%)
+Successfully installed bundler-1.10.6
+Parsing documentation for bundler-1.10.6
+Installing ri documentation for bundler-1.10.6
+Done installing documentation for bundler after 14 seconds
+1 gem installed
+
+# Cucumber gem installation with bundler 
+C:\cucumber_course\Eliana\session11_cucumber\GemFile>bundle
+ install
+Fetching gem metadata from https://rubygems.org/.........
+Fetching version metadata from https://rubygems.org/..
+Resolving dependencies...
+Installing builder 3.2.2
+Installing multi_json 1.11.2
+Installing gherkin 2.12.2
+Installing cucumber-core 1.2.0
+Installing diff-lcs 1.2.5
+Installing multi_test 0.1.2
+Installing cucumber 2.0.2
+Using bundler 1.10.6
+Bundle complete! 1 Gemfile dependency, 8 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+C:\cucumber_course\Eliana\session11_cucumber\GemFile>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+builder (3.2.2)
+bundler (1.10.6)
+cucumber (2.0.2)
+cucumber-core (1.2.0)
+diff-lcs (1.2.5)
+gherkin (2.12.2 x86-mingw32)
+io-console (0.4.3)
+json (1.8.1)
+multi_json (1.11.2)
+multi_test (0.1.2)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+
+C:\cucumber_course\Eliana\session11_cucumber\GemFile>cucumber --version
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+2.0.2
+
+C:\cucumber_course\Eliana\session11_cucumber\GemFile>gem search -l cucumber
+
+*** LOCAL GEMS ***
+
+cucumber (2.0.2)
+cucumber-core (1.2.0)
