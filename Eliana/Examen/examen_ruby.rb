@@ -1,24 +1,26 @@
 module Time_conversions
 
-def Time_conversions.convert_minutes_hours(minutes)
+def convert_minutes_hours(minutes)
     hours = minutes / 60 
+    puts hours <= 1 ?
+    "#{minutes} Minutes represent #{hours} hour" :
+    "#{minutes} Minutes represent #{hours} hours"
 end
 
-def Time_conversions.convert_hours_day(hours)
+def convert_hours_day(hours)
 	days = hours / 24
+	puts days <= 1 ?
+	 "#{hours} Hrs represent #{days} day" :
+	 "#{hours} Hrs represent #{days} days"
 end
 
-def Time_conversions.convert_days_month(days)
-	months = days / 31
+def convert_days_month(days)
+	months = days / 30
+	puts months <= 1 ?
+	"#{days} Days represent #{months} month" :
+	"#{days} Days represent #{months} months"
 end 
+
 end
 
-puts "Insert the time to convert"
-time = gets.chomp.to_i
-minutes_hours = Time_conversions.convert_minutes_hours time 
-hours_days = Time_conversions.convert_hours_day time 
-days_month = Time_conversions.convert_days_month time 
-puts "#{time} minutes in hours is #{minutes_hours}"
-puts "#{time} hours in days is #{hours_days}"
-puts "#{time} days in months is #{days_month}"
 
