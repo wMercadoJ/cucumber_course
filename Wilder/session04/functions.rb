@@ -35,4 +35,7 @@ puts "enter name: "
 name = gets.chomp
 puts "ticket price: "
 ticket_price = ('%.2f' % gets.chomp.to_f)
+#print default city CBBA
 printUserData name, ticket_price
+#print city passed as parameter LA PAZ
+printUserData name, "LA PAZ", ticket_price

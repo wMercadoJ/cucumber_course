@@ -1,5 +1,6 @@
 #hashes
 class Hash_Manager
+    attr_reader :hash
 	def initialize
 		@hash = {}
 	end 
@@ -34,7 +35,10 @@ hash_test = Hash_Manager.new
 hash_test.fill_hash()
 hash_test.print_hash_keys
 hash_test.print_hash_values
+#printing hash using method
 hash_test.print_hash
+#printing hash using getter
+puts hash_test.hash
 puts "search for key.."
 key = gets.chomp.to_s
 puts "key " + (hash_test.key?(key) == true ? "exists" : "not exists")
