@@ -5,27 +5,27 @@ Variables to be used in the script
 Session 2
 =end
 
-pB = 25 + 30 / 6
-pA = 100 -25 * 3 % 4
-vC = 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
-vBolean = 3 + 2 < 5 - 7
-s1 = 3 + 2
-s2 = 5 -7
+priceBananas = 25 + 30 / 6
+priceApples = 100 -25 * 3 % 4
+cantPotatos = 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+boleanVariable = 3 + 2 < 5 - 7
+sumNumbers = 3 + 2
+restNumbers = 5 -7
 
 
-puts "Bananas:  #{pB}"
-puts "apples: #{pA}"
+puts "Bananas:  #{priceBananas}"
+puts "apples: #{priceApples}"
 
 puts "Now I will count the potato:"
 
-puts vC
+puts cantPotatos
 
 puts "Is it true that 3 + 2 < 5 - 7?"
 
-puts vBolean
+puts boleanVariable
 
-puts "What is 3 + 2? It is #{s1}"
+puts "What is 3 + 2? It is #{sumNumbers}"
 
 puts noExist #undefinided local variable or method
 
-puts "What is 5 - 7? It is #{s2 + s1}"
+puts "What is 5 - 7? It is #{restNumbers}"
