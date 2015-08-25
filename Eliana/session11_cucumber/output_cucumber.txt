@@ -1,0 +1,126 @@
+C:\cucumber_course\Eliana\session11_cucumber\Example>cucumber features/test.feature --dry-run
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+WARNING: cannot load such file -- 2.2/gherkin_lexer_en
+Couldn't load 2.2/gherkin_lexer_en
+The $LOAD_PATH was:
+lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-2.0.2/bin/../lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/multi_json-1.11.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/extensions/x86-mingw32/2.2.0/gherkin-2.12.2
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/gherkin-2.12.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-core-1.2.0/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/builder-3.2.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/diff-lcs-1.2.5/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/multi_test-0.1.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-2.0.2/lib
+C:/Ruby22/lib/ruby/site_ruby/2.2.0
+C:/Ruby22/lib/ruby/site_ruby/2.2.0/i386-msvcrt
+C:/Ruby22/lib/ruby/site_ruby
+C:/Ruby22/lib/ruby/vendor_ruby/2.2.0
+C:/Ruby22/lib/ruby/vendor_ruby/2.2.0/i386-msvcrt
+C:/Ruby22/lib/ruby/vendor_ruby
+C:/Ruby22/lib/ruby/2.2.0
+C:/Ruby22/lib/ruby/2.2.0/i386-mingw32. Reverting to Ruby lexer.
+WARNING: cannot load such file -- 2.2/gherkin_lexer_en
+Couldn't load 2.2/gherkin_lexer_en
+The $LOAD_PATH was:
+lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-2.0.2/bin/../lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/multi_json-1.11.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/extensions/x86-mingw32/2.2.0/gherkin-2.12.2
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/gherkin-2.12.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-core-1.2.0/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/builder-3.2.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/diff-lcs-1.2.5/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/multi_test-0.1.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-2.0.2/lib
+C:/Ruby22/lib/ruby/site_ruby/2.2.0
+C:/Ruby22/lib/ruby/site_ruby/2.2.0/i386-msvcrt
+C:/Ruby22/lib/ruby/site_ruby
+C:/Ruby22/lib/ruby/vendor_ruby/2.2.0
+C:/Ruby22/lib/ruby/vendor_ruby/2.2.0/i386-msvcrt
+C:/Ruby22/lib/ruby/vendor_ruby
+C:/Ruby22/lib/ruby/2.2.0
+C:/Ruby22/lib/ruby/2.2.0/i386-mingw32. Reverting to Ruby lexer.
+0 scenarios
+0 steps
+
+C:\cucumber_course\Eliana\session11_cucumber\Example>cucumber features/test.feat
+ure --dry-run
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+WARNING: cannot load such file -- 2.2/gherkin_lexer_en
+Couldn't load 2.2/gherkin_lexer_en
+The $LOAD_PATH was:
+lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-2.0.2/bin/../lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/multi_json-1.11.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/extensions/x86-mingw32/2.2.0/gherkin-2.12.2
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/gherkin-2.12.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-core-1.2.0/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/builder-3.2.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/diff-lcs-1.2.5/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/multi_test-0.1.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-2.0.2/lib
+C:/Ruby22/lib/ruby/site_ruby/2.2.0
+C:/Ruby22/lib/ruby/site_ruby/2.2.0/i386-msvcrt
+C:/Ruby22/lib/ruby/site_ruby
+C:/Ruby22/lib/ruby/vendor_ruby/2.2.0
+C:/Ruby22/lib/ruby/vendor_ruby/2.2.0/i386-msvcrt
+C:/Ruby22/lib/ruby/vendor_ruby
+C:/Ruby22/lib/ruby/2.2.0
+C:/Ruby22/lib/ruby/2.2.0/i386-mingw32. Reverting to Ruby lexer.
+WARNING: cannot load such file -- 2.2/gherkin_lexer_en
+Couldn't load 2.2/gherkin_lexer_en
+The $LOAD_PATH was:
+lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-2.0.2/bin/../lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/multi_json-1.11.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/extensions/x86-mingw32/2.2.0/gherkin-2.12.2
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/gherkin-2.12.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-core-1.2.0/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/builder-3.2.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/diff-lcs-1.2.5/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/multi_test-0.1.2/lib
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-2.0.2/lib
+C:/Ruby22/lib/ruby/site_ruby/2.2.0
+C:/Ruby22/lib/ruby/site_ruby/2.2.0/i386-msvcrt
+C:/Ruby22/lib/ruby/site_ruby
+C:/Ruby22/lib/ruby/vendor_ruby/2.2.0
+C:/Ruby22/lib/ruby/vendor_ruby/2.2.0/i386-msvcrt
+C:/Ruby22/lib/ruby/vendor_ruby
+C:/Ruby22/lib/ruby/2.2.0
+C:/Ruby22/lib/ruby/2.2.0/i386-mingw32. Reverting to Ruby lexer.
+features/test.feature: Lexing error on line 1: 'Feture: This is the feature titl
+e'. See http://wiki.github.com/cucumber/gherkin/lexingerror for more information
+. (Cucumber::Core::Gherkin::ParseError)
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-core-1.2.0/lib/cucumber/core/gherkin
+/parser.rb:26:in `rescue in document'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-core-1.2.0/lib/cucumber/core/gherkin
+/parser.rb:21:in `document'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-core-1.2.0/lib/cucumber/core.rb:27:i
+n `block in parse'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-core-1.2.0/lib/cucumber/core.rb:26:i
+n `each'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-core-1.2.0/lib/cucumber/core.rb:26:i
+n `parse'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-core-1.2.0/lib/cucumber/core.rb:18:i
+n `compile'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-2.0.2/lib/cucumber/runtime.rb:70:in
+`run!'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-2.0.2/lib/cucumber/cli/main.rb:38:in
+ `execute!'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/cucumber-2.0.2/bin/cucumber:9:in `<top (requi
+red)>'
+C:/Ruby22/bin/cucumber:23:in `load'
+C:/Ruby22/bin/cucumber:23:in `<main>'
+
+
+gem uninstall gherkin --force
+I have ChefDK installed which comes pre configured with the ruby dev kit needed. 
+It sounds like you may not have the ruby dev kit or if you do,
+it's not configured correctly and probably isn't an issue with Gherkin. 
+You will eventually need to install and compile the gherkin gem on the machine you're trying to run it on...
+
+gem install gherkin --platform ruby 

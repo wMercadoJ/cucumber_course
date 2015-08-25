@@ -1,4 +1,4 @@
-Feature: This is the feature title
+Feture: This is the feature title
 This is the description of the feature, which can span multiple lines.
 You can even include empty lines, like this one:
 
