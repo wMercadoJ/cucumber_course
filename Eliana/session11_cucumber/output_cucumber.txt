@@ -123,4 +123,14 @@ It sounds like you may not have the ruby dev kit or if you do,
 it's not configured correctly and probably isn't an issue with Gherkin. 
 You will eventually need to install and compile the gherkin gem on the machine you're trying to run it on...
 
-gem install gherkin --platform ruby 
+gem install gherkin --platform ruby
+
+go to below folder inside your ruby installation directory
+
+{rubyDir}\lib\ruby\gems\2.0.0\gems\gherkin-2.12.2\lib\gherkin
+
+may be different path for you guys
+
+Modify *lib/gherkin/c_lexer.rb:7 change the value of prefix as below:
+
+prefix = ''
