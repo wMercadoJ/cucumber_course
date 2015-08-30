@@ -1,12 +1,12 @@
 Feature: 
 
-Scenario: go to lunch
+Scenario: go to lunch 
 
 Given I have credit in my account
-When I buy potato
-	And  I buy meet 
-	And  I buy rice
-Then I have a lunch to eat
+When I buy potato with Bs 10
+	And  I buy meet  with Bs 5 
+	And  I buy rice with Bs 2
+Then I should lunch 
 
 
 Scenario: go to work
