@@ -11,7 +11,7 @@ Description: - how to use Modules
 
 $LOAD_PATH << '.'
 
-require "practice_day5_modulo_part1"
+require "practice03_modulo_class_greetings"
 
 class Greeting_and_GoodBye
 	include Greetings

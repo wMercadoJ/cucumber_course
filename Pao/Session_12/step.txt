@@ -1,0 +1,81 @@
+Feature: Record every work you do during the day
+
+  Scenario: WakeUp from Bed by the alarm ring     # features/Practice02_BDD_example_daily.feature:3
+    Given a Alarm Clock Set by 06 AM              # features/Practice02_BDD_example_daily.feature:4
+    And The alarm is 5 meters from your bed       # features/Practice02_BDD_example_daily.feature:5
+    When the alarm start ringing                  # features/Practice02_BDD_example_daily.feature:6
+    And time is 06                                # features/Practice02_BDD_example_daily.feature:7
+    Then I should open my eyes                    # features/Practice02_BDD_example_daily.feature:8
+    And I should walk 5 meters to reach the alarm # features/Practice02_BDD_example_daily.feature:9
+    And I should stop the alam ring               # features/Practice02_BDD_example_daily.feature:10
+    And I should be ready to take the shower      # features/Practice02_BDD_example_daily.feature:11
+
+  Scenario: Ready to start working          # features/Practice02_BDD_example_daily.feature:13
+    Given I reach the office                # features/Practice02_BDD_example_daily.feature:14
+    And took my coat off                    # features/Practice02_BDD_example_daily.feature:15
+    And seat in my desk                     # features/Practice02_BDD_example_daily.feature:16
+    When I open my note book                # features/Practice02_BDD_example_daily.feature:17
+    And write my daily work for the day     # features/Practice02_BDD_example_daily.feature:18
+    Then I should be ready to start working # features/Practice02_BDD_example_daily.feature:19
+
+2 scenarios (2 undefined)
+14 steps (14 undefined)
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^a Alarm Clock Set by (\d+) AM$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^The alarm is (\d+) meters from your bed$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^the alarm start ringing$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^time is (\d+)$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should open my eyes$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should walk (\d+) meters to reach the alarm$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should stop the alam ring$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should be ready to take the shower$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^I reach the office$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^took my coat off$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^seat in my desk$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I open my note book$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^write my daily work for the day$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should be ready to start working$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
