@@ -42,9 +42,9 @@ end
 When(/^I start with the (Task\d+) I change the Status to (In Progress)$/) do |task, status|
   # table is a Cucumber::Core::Ast::DataTable
   if (task == "Task1") 
-      @board[1][1] = 'In Progress'
+      @board[1][1] = status
   elsif (task == "Task2")
-      @board[2][1] = 'In Progress'
+      @board[2][1] = status
    end  
 end
 
@@ -56,9 +56,9 @@ end
 Given(/^(Task\d+) is completed I marked this task as (Done)$/) do |task, status|
   # table is a Cucumber::Core::Ast::DataTable
   if (task == "Task1") 
-      @board[1][1] = 'Done'
+      @board[1][1] = status
   elsif (task == "Task2")
-      @board[2][1] = 'Done'
+      @board[2][1] = status
   end  
 end
 
