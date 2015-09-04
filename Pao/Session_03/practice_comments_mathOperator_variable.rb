@@ -5,7 +5,7 @@ Description: - Math operators (Plus, Minus, Multiplicator, Division)
 			 - Variables
 			 - Print Variables in a sentence	
 
-practica day 3
+practice Session 3
 
 =end
 
@@ -68,6 +68,13 @@ puts "Now the turn is for the integer variable: #{varibale_integer} <-- Awesome!
 puts "operation with variables: #{varibale_integer + variable_integer2}"
 
 
+=begin
+4. Write some variables that convert seconds in minutes, seconds in hours and second in days. 
+Do not just type in the measurements. Please work out the math in Ruby.
+Create variable to assign the values
+Use the variable name to print the result.
+
+=end
 puts "==========================Nro. # 4 ================================"
 
 seconds = 1500000
