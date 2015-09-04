@@ -12,6 +12,7 @@ AfterConfiguration do |config|
   $app_host = configuration['app']['host']
   $app_port = configuration['app']['port']
   $app_root = configuration['app']['rootPath']
+  $app_authentication = configuration['app']['authentication']
 end
 
 def find_config_file(filename)

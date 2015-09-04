@@ -16,16 +16,18 @@ module Rest_service
   def Rest_service.get_request(method, url)
     request = nil   
     url =  $app_root + url
+    authorization = "Basic " + $app_authentication
+    headers = {'Authorization' => authorization}
    
     case method
       when "POST"
-        request = Net::HTTP::Post.new(url)
+        request = Net::HTTP::Post.new(url,headers)
       when "PUT"
-        request = Net::HTTP::Put.new(url)
+        request = Net::HTTP::Put.new(url, headers)
       when "DELETE"
-        request = Net::HTTP::Delete.new(url)
+        request = Net::HTTP::Delete.new(url, headers)
       when "GET"
-        request = Net::HTTP::Get.new(url)
+        request = Net::HTTP::Get.new(url,headers )
     end
 
     #request.basic_auth($app_user,$app_pass)  
