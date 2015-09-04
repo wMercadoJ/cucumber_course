@@ -18,20 +18,21 @@ end
 Given(/^I have set a connection to todo\.ly service$/) do
   @http_connection = Rest_service.get_connection
   @token_value= GetToken.instance 
-  puts "TOKEN: #{@token_value.token}" 
+  #puts "TOKEN: #{@token_value.token}" 
 end
 
 When (/^I send a (PUT|POST) request to (.*?) with json$/) do |method, end_point, json_text|
   http_request = Rest_service.get_request(method, end_point)
+  http_request[$TOKEN]=@token_value.token
   http_request.body = json_text
   @http_response = Rest_service.execute_request(@http_connection, http_request)
   @last_json = @http_response.body
    
 end
 
-When (/^I send a (GET) request to "(.*?)"$/) do |method, end_point|
+When (/^I send a (GET) request to (.*?)$/) do |method, end_point|
   http_request = Rest_service.get_request(method, end_point)
-  http_request[]=
+  http_request[$TOKEN]=@token_value.token
   @http_response = Rest_service.execute_request(@http_connection, http_request)
   @last_json = @http_response.body
 end
