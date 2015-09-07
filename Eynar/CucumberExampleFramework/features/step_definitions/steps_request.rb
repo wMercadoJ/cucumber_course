@@ -5,9 +5,9 @@ end
 
 
 
-When(/^I send a POST request to \/user\.json with json$/) do |string|
-  pending # Write code here that turns the phrase above into concrete actions
-end
+# When(/^I send a POST request to \/user\.json with json$/) do |string|
+#   pending # Write code here that turns the phrase above into concrete actions
+# end
 
 When (/^I send a (PUT|POST) request to (.*?) with json$/) do |method, end_point, json_text|
   http_request = Rest_service.get_request(method, end_point)
@@ -17,9 +17,9 @@ When (/^I send a (PUT|POST) request to (.*?) with json$/) do |method, end_point,
 end
 
 
-Then(/^I expect HTTP code (\d+)$/) do |arg1|
-  pending # Write code here that turns the phrase above into concrete actions
-end
+# Then(/^I expect HTTP code (\d+)$/) do |arg1|
+#   pending # Write code here that turns the phrase above into concrete actions
+# end
 
 When (/^I send a (GET) request to "(.*?)"$/) do |method, end_point|
   http_request = Rest_service.get_request(method, end_point)
