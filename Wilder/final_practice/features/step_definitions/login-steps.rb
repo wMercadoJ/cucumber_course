@@ -7,12 +7,9 @@ Given(/^a password (.*?)$/) do |password|
 end
 
 When(/^I enter credentials$/) do
-  puts "validating credentials.."
+  @message = (@username == "wil" && @password == "test") ? "welcome" : "failed"
 end
 
-Then(/^I should login$/) do
-  expected_username = "wil"
-  expected_password = "test"
-  expect(@username).to eql(expected_username)
-  expect(@password).to eql(expected_password)
+Then(/^I should login and get a (.*?)$/) do |message|
+  expect(@message).to eql(message)
 end
