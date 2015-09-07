@@ -1,0 +1,8 @@
+app:
+   admin_user: paola.munoz@jalasoft.com
+   admin_pass: admin123
+   host: https://trello.com
+   port: 8080
+   rootPath: /1
+   key: 5fcc9aae9585aeb7bca1386b75ae7998
+   token: c00068452f4ec7e08e482434a5ec28fcdfce5f56077c395aa37d88bd46207ff3  
