@@ -1,7 +1,6 @@
 #Add the library for HTTP
 require 'net/http'
 
-
 module Rest_service
 
   HTTP_TIMEOUT_FOR_RESPONSE = 180
@@ -16,4 +15,24 @@ module Rest_service
       return http_connection
   end
 
+  def Rest_service.get_request(method, url)
+   
+    request = nil   
+    url =  $app_root + url
+
+    case method
+      when "POST"
+        request = Net::HTTP::Post.new(url)
+      when "PUT"
+        request = Net::HTTP::Put.new(url)
+      when "DELETE"
+        request = Net::HTTP::Delete.new(url)
+      when "GET"
+        request = Net::HTTP::Get.new(url)
+    end
+   return request
+  end
+
 end
+
+
