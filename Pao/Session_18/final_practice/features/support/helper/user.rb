@@ -1,32 +1,45 @@
 # require 'singleton'
+=begin
 def user_access
    user_access ||=User.new
 
 end
+=end
 
+
+#login_to_system
+
+require 'singleton'
 class User
-	# include Singleton
-	
-	attr_accessor :login
-	attr_accessor :password
-
-	def initialize ()
-		@login = ""
-		@password = ""
-	end
-	def define_login_pass (login, password)
-		@login = login
-		@password = password
-	end
-	def login_to_system(login, password)
-		if login == @login && password == password
-			message = "Welcome, Have a nice day"
-		else
-			message = "Sorry try again"
-		end
-		return message
-	end
+   include Singleton
+  
+  attr_accessor :users
+  
+  def initialize ()
+    @users = Hash.new()
+  end
+  def define_login_pass (login, password)
+    @users[login] = password
+  end
+  def get_users()
+    @users
+  end
+  def login_to_system(login, password)
+    if (@users.has_key?(login))
+      if(@users[login] == password)
+        message = "Welcome, have a nice day"
+      else
+        message = "Sorry Try Again"
+      end
+    else
+      message = "Sorry Try Again"
+    end
+    return message
+  end
 end
+
+
+
 
 $list_item = ["apple", "banana" , "orange"]
 

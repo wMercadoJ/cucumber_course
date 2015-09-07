@@ -1,30 +1,46 @@
+user_access = User.instance
 
-Given(/^I have the login (.*?)$/) do |login|
-  @login_user = login
+Given(/^I have a list of users with passwords$/) do
+  
   user_access.define_login_pass("cpmn", "admin")
+  user_access.define_login_pass("juan", "admin")
+  user_access.define_login_pass("maria", "admin")
+  #p user_access.get_users()
 end
 
-Given(/^I have the password (.*?)$/) do |password|
+When(/^I login to the application with: ([^"]*)$/) do |login|
+  @login = login
+  #p @login
+end
+
+When(/^I introduce the password: ([^"]*)$/) do |password|
   @password = password
+  #p @password
 end
 
-When(/^I introduce the login and the password in to the app$/) do
+When(/^I login to the system$/) do
   @message = user_access.login_to_system(@login, @password)
-
 end
 
-Then(/^I expect a message "([^"]*)"$/) do |message_expected|
-  expect(@message.to_s).to eql message_expected.to_s
+Then(/^I should see "([^"]*)"$/) do |message|
+  expect(@message).to eq message
 end
 
-Given (/^I have the item (.*?)$/) do |item|
+item = Items.instance
+
+Given(/^I have a list of item$/) do
+  item.define_item("apple")
+  item.define_item("orange")
+  item.define_item("banana")
 end
 
-When (/^I search for the item$/) do
+When(/^I search item: ([^"]*)$/) do | item|
+  @message =item.search_item(item.to_s)
+  #p @item.Items
 end
 
-Then (/^I expect the have a message "(.*?)"$/) do |message|
+Then(/^I should see item message: "([^"]*)"$/) do |message|
+  expect(@message).to eq message
 end
 
-Then (/^I expect the see the item "(.*?)"$/) do |message|
-end
+
