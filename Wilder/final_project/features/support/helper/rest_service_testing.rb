@@ -10,7 +10,7 @@ module Rest_service
   #
   def Rest_service.get_connection
       http_connection = nil
-      http_connection = Net::HTTP.new($app_host)      
+      http_connection = Net::HTTP.new($app_host)
       http_connection.read_timeout = HTTP_TIMEOUT_FOR_RESPONSE
       return http_connection
   end
@@ -20,7 +20,6 @@ end
 def Rest_service.get_request(method, url)
     request = nil   
     url =  $app_root + url
-   
     case method
       when "POST"
         request = Net::HTTP::Post.new(url)
@@ -31,6 +30,7 @@ def Rest_service.get_request(method, url)
       when "GET"
         request = Net::HTTP::Get.new(url)
     end
+    request.basic_auth($app_user, $app_pass) #temp
 	return request
 end
 

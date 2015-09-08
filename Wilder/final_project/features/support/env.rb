@@ -1,6 +1,7 @@
 require 'pathname'
 require 'yaml'
 require 'json_spec/cucumber'
+require "rspec/json_expectations"
 
 AfterConfiguration do |config|
   # read config file
